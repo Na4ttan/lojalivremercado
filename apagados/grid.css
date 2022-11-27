@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+#layout {
+    display: grid;
+    grid-template-rows: 6em minmax(auto, 1fr) 3em;
+    grid-template-columns: minmax(auto, 12em) 1fr 1fr 1fr;
+    /*max-width: 1200px;*/
+    /*grid-area: "header header header header"
+               "nav product product product"
+               "footer footer footer footer";*/
+}
+#cabecario {
+    grid-area: 1 / 1 / 2 / -1;
+}
+#nav {
+    grid-area: 2 / 1 / 3 / 2;
+}
+main {
+    grid-area: 2 / 2 / 3 / 5;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#cabecario {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ab0ed+0,9fd8ef+49,bfe8f9+50,e4f5fc+100 */
+background: rgb(42,176,237); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(42,176,237,1) 0%, rgba(159,216,239,1) 49%, rgba(191,232,249,1) 50%, rgba(228,245,252,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(42,176,237,1) 0%,rgba(159,216,239,1) 49%,rgba(191,232,249,1) 50%,rgba(228,245,252,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(42,176,237,1) 0%,rgba(159,216,239,1) 49%,rgba(191,232,249,1) 50%,rgba(228,245,252,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    
+    
+    list-style-type: none;
+    border: 1px;
+    padding: 1em 1em;
+    width: 100%;
+}
+
+nav {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,9fd8ef+51,2ab0ed+100;Blue+Gloss+%235 */
+background: rgb(228,245,252); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(228,245,252,1) 0%, rgba(191,232,249,1) 50%, rgba(159,216,239,1) 51%, rgba(42,176,237,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(228,245,252,1) 0%,rgba(191,232,249,1) 50%,rgba(159,216,239,1) 51%,rgba(42,176,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#datalistid {
+    width: 2em;
+}
+input[class*="searchclass"] {
+    border: 1px inset;
+    height: 2em;
+    width: 20em;
+    font-size: larger;
+    
+}
+button {
+    height: 2em;
+    background-color: rgba(191,232,249,1);
+    border: 1px outset;
+    font-size: larger;
+    
+}
+#searchid {
+    width: 11em;
+}
+#searchdiv {
+    display: flex;
+    flex-grow: 1 1 auto;
+}
+
+#logoimg {
+    width: 4.4em;
+    height: 4.4em;
+    border-radius: 30%;
+}
+
+#perfil {
+    flex-wrap: wrap;
+    align-self: center;
+    justify-self: center;
+}
+img[alt*="perfil"] {
+    min-width: 2em;
+    max-width: 2em;
+    min-height: 2em;
+    max-height: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+    
+li a {
+    font-size: larger;
+    font-family: 'Anek Malayalam', Anton, 'Yanone Kaffeesatz';
+}
+    
+li.bar {
+    display: inline;
+}
+li {
+    list-style-type: none;
+    padding: 1em 1em;
+}
+a:link {
+    color: rgb(0, 0, 0);
+    
+}
+   
+a:visited {
+    color: rgb(46, 45, 45);
+}
+    
+    
+ol li:hover, a:hover {
+    background-color: rgba(42,176,237,1);
+    
+}
+    
+    
+ol, ul {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+section {
+    width: 180px;
+    height: 220px;
+    border: 1px solid rgb(114, 112, 112);
+    margin: 1em;
+    border-radius: .3em;
+    overflow: hidden;
+    box-shadow: 3px 3px rgb(114, 112, 112);
+    position: relative;
+    top: 0px;
+}
+section:active {
+    top: 3px;
+    left: 1px;
+    box-shadow: 0px 0px;
+}
+
+img {
+    height: 120px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    max-width: 100%;
+    min-width: 100%;
+} 
+
+h2 {
+    text-align: center;
+    margin: 0%;
+    padding: .62em 0%;
+}
+
+p {
+    background-color: rgb(50, 161, 40);
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0%;
+    text-align: center;
+}
+
+
+section:hover {
+    transform: scale(1.15);
+    transition-duration: 300ms;
+} 
+section:active {
+    transition-duration: 50ms;
+}
+#nav li:hover {
+    transform: scale(1.2);
+    transition-duration: 300ms;
+}
+.imglogo:hover, #divperfil:hover {
+    transform: scale(1.2);
+    transition-duration: 100ms;
+}
+

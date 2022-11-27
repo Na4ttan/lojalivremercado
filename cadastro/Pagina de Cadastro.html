@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&family=Anton&family=Yanone+Kaffeesatz:wght@365;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bahiana&display=swap" rel="stylesheet">
+    <style>
+        @import url(cadastro.css);
+    </style>
+</head>
+<body>
+    <div class="header">
+        <header>
+            <div class="livremercado">
+                <a href="../mercado.html">
+                <img src="../home.svg" alt="home">
+                <span>Livre mercado</span>
+                </a>
+            </div>
+        </header>
+    </div>
+
+    <div class="formulario">
+        <div>
+            <h1>criar seu cadastro</h1>
+            <p>veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência personalizada :)</p>
+        </div>
+
+        <div>
+        
+            <form action="../mercado.html">
+                <fieldset>
+                    <legend>Cadastre-se</legend>
+
+                    <ul class="campos">
+                        <li><label for="form-name">Nome:</label> <br><input type="text" name="customername" id="form-name" placeholder="Qual seu nome?"></li>
+                        <li><label for="cpf">CPF:</label><br> <input type="number" name="cpf" id="cpf"></li>
+                        <li><label for="nascimento">Data de Nascimento:</label> <br><input type="date" name="nascimento" id="nascimento"></li>
+                        <li><label for="form-address">Endereço:</label> <br><input type="text" name="address" id="form-address"></li>
+                        <li><label for="form-tel">Telefone:</label><br> <input type="tel" name="telephone" id="form-tel"></li>
+                        <li><label for="form-email">Email:</label> <br><input type="email" name="email" id="form-email"></li>
+                        <li><label for="passwrd">Crie uma senha:</label> <br><input type="password" name="passwrd" id="passwrd"></li>
+                        <li><label for="repasswrd">Repita a senha:</label> <br><input type="password" name="repasswrd" id="repasswrd"></li>
+                      </ul>
+
+                      <p>Qual seu sexo?</p>
+                      <ul>
+                        <li><label><input type="radio" name="sexo" value="Homem" checked> Masculino</label></li>
+                        <li><label><input type="radio" name="sexo" value="Mulher"> Feminino</label></li>
+                        </ul>
+
+                </fieldset>
+                <div class="button">
+                <p><input type="submit" value="Cadastrar">
+                    <input type="reset"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

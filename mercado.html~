@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title> Livre Mercado </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&family=Anton&family=Yanone+Kaffeesatz:wght@365;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bahiana&display=swap" rel="stylesheet">
+<style>
+@import url(grid.css);
+
+</style>
+<script src="script.js"></script>
+</head>
+
+<body>
+    <div id="layout">
+    <div id="cabecario">
+    <header>
+        <div class="headerdiv">
+        <div class="livremercado">
+            <a href="mercado.html">
+            <img src="home.svg" alt="home">
+            <span>Livre mercado</span>
+            </a>
+        </div>
+        <div id="searchdiv">
+            <input type="text" name="search" placeholder=" O que você procura?" role="search">
+            <button>Pesquisar</button>
+        </div>
+            <div id="divperfil">
+                <a href="cadastro/loggin.html"><img src="perfil.png" alt="perfil"></a>
+            <a href="cadastro/Pagina de Cadastro.html"><img src="add-user.png" id="iconeperfil" alt="perfil"></a>
+            </div>
+            
+        </div>
+    </header>
+    </div>
+    
+    <div class="navigation">
+        <div class="nav">
+            <nav>
+                <ol>
+                    <li><a href="">Carros</a></li>
+                    <li><a href="">SmartPhones</a></li>
+                    <li><a href="">SmartTVs</a></li>
+                    <li><a href="">Livros</a></li>
+                    <li><a href="">Armas</a></li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    
+        <main>
+    <section>
+        <a href="">
+        <img src="produtos/bmwx1.jpg" alt="">
+        <h2 class="rotulo">BMW X1</h2>
+        <p class="price"><b>0,90 BTC</b></p>
+        <p class="ano">0KM | 2022</p>
+        <p class="descricao">Com esta nave voc&ecirc; vai comer todo mudo, at&eacute; sua sogra</p>
+        </a>
+    </section>
+
+    <section>
+        <a href="">
+        <img src="produtos/taos.webp" alt="">
+        <h2 class="rotulo">VW Taos</h2>
+        <p class="price"><b>0,80 BTC</b></p>
+        <p class="ano">0KM | 2022</p>
+        <p class="descricao">Você também pode fazer viagens incríveis. O Taos tem tudo que você precisa: conectividade, segurança, muito espaço, conforto e potência.</p>
+        </a>
+    </section>
+
+    <section>
+        <a href="">
+        <img src="produtos/mustang.jpg" alt="">
+        <h2 class="rotulo">Mustang</h2>
+        <p class="price"><b>1.98 BTC</b></p>
+        <p class="ano">0KM | 2022</p>
+        <p class="descricao">Nascido para pistas, o Mustang Mach 1 carrega consigo o legado histórico de performance e esportividade junto a exclusividade de uma edição limitada.</p>
+        </a>
+    </section>
+
+    <section>
+        <a href="">
+        <img src="produtos/camaro.jpg" alt="">
+        <h2 class="rotulo">Camaro</h2>
+        <p class="price"><b>0.79 BTC</b></p>
+        <p class="ano">0KM | 2022</p>
+        <p class="descricao">aqui eu coloco a descrição do carro. Como e uma baita BMW, o carro é incrível</p>
+        </a>
+    </section>
+
+    <section>
+        <a href="">
+            <img src="produtos/twin.jpg" alt="">
+            <h2 class="rotulo">Africa Twin</h2>
+            <p class="price"><b>0.7 BTC</b></p>
+            <p class="ano">0KM | 2022</p>
+        <p class="descricao">aqui eu coloco a descrição da moto. Como e uma baita BMW, o carro é incrível</p>
+        </a>
+    </section>
+
+    <section>
+        <a href="">
+        <img src="produtos/guns/desert.webp" alt="">
+        <h2 class="rotulo">Desert Eagle</h2>
+        <p class="price"><b>0.049 BTC</b></p>
+        <p class="ano">Fabricação Israelence</p>
+        <p class="descricao">Arma maravilhosa para você explodir a cabeça de ladrão, além de ser ótima para defesa pessoal</p>
+        </a>
+    </section>
+
+    <section>
+        <a href="">
+        <img src="produtos/guns/revolver38.jpg" alt="">
+        <h2 class="rotulo">Revolver .38</h2>
+        <p class="price"><b>0.25 BTC</b></p>
+        <p class="ano">0KM | 2022</p>
+        <p class="descricao">Revolver bom pra mandar petista pro quinto dos infernos ;)</p>
+        </a>
+    </section>
+
+    <section>
+        <a href="">
+        <img src="produtos/books/carlsagan.png" alt="">
+        <h2 class="rotulo">Carl Sagan</h2>
+        <p class="price"><b>0.0005 BTC</b></p>
+        <p class="ano">0KM | 2022</p>
+        <p class="descricao">aqui eu coloco a descrição do carro. Como e uma baita BMW, o carro é incrível</p>
+        </a>
+    </section>
+
+    <section>
+        <a href="">
+        <img src="produtos/smartphones/iphone14.jpg" alt="">
+        <h2 class="rotulo">Iphone 14</h2>
+        <p class="price"><b>0.04 BTC</b></p>
+        <p class="ano">0KM | 2022</p>
+        <p class="descricao">aqui eu coloco a descrição do carro. Como e uma baita BMW, o carro é incrível</p>
+        </a>
+    </section>
+
+    <section>
+        <a href="">
+        <img src="produtos/guns/AKM.jpg" alt="">
+        <h2 class="rotulo">AKM</h2>
+        <p class="price"><b>0.09 BTC</b></p>
+        <p class="ano">0KM | 2022</p>
+        <p class="descricao">aqui eu coloco a descrição do carro. Como e uma baita BMW, o carro é incrível</p>
+        </a>
+    </section>
+
+   <section>
+      <a href="">
+      <img src="produtos/guns/bazuca.jpg" alt="Bazuca">
+      <h2 class="rotulo">Bazuca</h2>
+      <p class="price"><b>0.20 BTC</b></p>
+      <p class="ano">0KM | 2022</p>
+      <p class="descricao">aqui eu coloco a descrição do carro. Como e uma baita BMW, o carro é incrível</p>
+      </a>
+   </section>
+
+</main>
+    </div>
+</body>
+</html>
